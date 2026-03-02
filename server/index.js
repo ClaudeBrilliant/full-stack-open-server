@@ -5,8 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cors());
 
-const db = require('../simple-task-manager/simple-task-manger/db.json');
-let tasks = db.tasks;
+const db = require('./db.json');let tasks = db.tasks;
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
