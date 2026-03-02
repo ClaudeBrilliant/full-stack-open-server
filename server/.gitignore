@@ -1,0 +1,62 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnpm-store/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+coverage/
+.vite/
+.next/
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Prisma
+# =========================
+prisma/*.db
+prisma/*.db-journal
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Optional: uploads (if using Cloudinary keep remote only)
+# =========================
+uploads/

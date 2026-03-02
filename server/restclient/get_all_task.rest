@@ -1,0 +1,10 @@
+GET http://localhost:3000/tasks 
+
+###posting new data
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "title": "New Task",
+    "description": "This is a new task."
+}
